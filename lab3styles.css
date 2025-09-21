@@ -1,0 +1,65 @@
+
+.sidebar {
+    background-color: rgb(73, 225, 236);
+    float: right;
+    width: 20%;
+    border: solid;
+    margin: 20px;
+    padding: 15px;
+}
+
+.main{
+    background-color: mediumspringgreen;
+    float: left;
+    width: 64%;
+    border: solid;
+    margin: 20px;
+    padding: 15px;
+}
+
+.sidebar:hover {
+    background-color: green;
+}
+
+.headerandfooter {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    border: solid;
+    margin: 20px;
+    clear: both;
+}
+
+input[type="text"]:focus {
+    width: 200px;
+}
+
+body {
+    background-color: beige;
+    font-family:'Verdana';
+}
+
+
+
+.navbar ul{
+    list-style-type: none;
+    background-color: blue;
+    padding: 15px;
+    margin: 20px;
+    display: flex;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+.navbar a:hover{
+    background-color: orange;
+    color: black;
+}
